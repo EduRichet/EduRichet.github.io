@@ -1,0 +1,363 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, font, img, ins, kbd, q, s, samp,
+small, strike, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Calibri, Arial, sans-serif;
+    color: #777777;
+    background: #FFFFFF  /*#E4DFCD*/ ;
+    font-size: 87.5%;
+}
+
+html > body {
+    font-size: 14px;
+}
+
+img {
+	/*border-width: 1px;
+	border-color: #BBBBBB ;*/
+	border-style: none;
+}
+
+a {
+    color: #777777;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #777777;
+}
+
+a:hover {
+    color: #f6a517; /*#FF6600; /*#FF4019; /*#FF8C00;*/ /*#ff005a;*/
+}
+
+ol {
+	margin-bottom: 1.5em;
+}	
+
+
+ul {
+    margin-bottom: 1.5em;
+    padding-left: 20px;
+}
+
+ul {
+    list-style-type: square;
+}
+
+li {
+    padding-bottom: 0.25em;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+p {
+    margin: 0 0 20px;
+    line-height: 20px;
+    font-size: 13px;
+}
+
+p .description {font-size: 11px; line-height: 12px;}
+
+em, i {
+    font-style: italic;
+}
+
+p .journal {font-style:italic; font-weight:bold} /*color:#003399;*/
+
+p .new {font-weight:bold; color:#cf1d01; font-family: Calibri; }
+
+strong {font-style:bold; }
+
+img { border-style: none; }
+
+#content {
+    position: absolute;
+    margin-left: 254px;
+    width:900px;
+}
+
+/*Headlines */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    /* font-family: "Helvetica Neue", Helvetica, Calibri, Arial, sans-serif; */
+}
+
+h1,
+#index .title h2 {
+    font-size: 4.4em;
+    line-height: 1em;
+    color: #555555;
+    padding: 0 0.1em 0 0;
+    font-weight: bold;
+    letter-spacing: -0.03em;
+}
+
+.h1alt {
+    font-size: 0.8em;
+    line-height: 1em;
+    color:  #f6a517; /*#FF6600; /*#FF4019;*/ /*#FF8C00;*/ /*#ff005a;*/
+    letter-spacing: -0.03em;
+    padding: 0 0.1em 0 0;
+    font-weight: bold;
+    /*padding-top: 12px;*/
+}
+
+.h1alt2{
+    font-size: 0.6em;
+    line-height: 1em;
+    color:  #888888; /*#FF4019;*/ /*#FF8C00;*/ /*#ff005a;*/
+    letter-spacing: -0.03em;
+    /*padding: 12px 0.1em 0 0;*/
+    padding-top: 12px;
+}        	
+
+h1 a,
+h1 a:visited,
+h1 a:hover,
+
+h3 {
+    padding: 6px 0 6px 0;
+    /* border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;*/
+    color: #f6a517; /*#FF6600; /*#FF4019;*/ /*#FF8C00;*/ /*#ff005a;*//*#999;*/
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 75px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+h3 .grey {
+    font-weight:normal;
+    color: #555555
+}
+
+h4, h5 {
+    font-size: 13px;
+    font-weight:bold;
+}
+
+h6 {
+    color: #f6a517; /* #FF6600; /*#FF4019; /*#FF005A;*/ /*FF8C00*/
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 30px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 1.5em;
+}
+
+/* Special Font*/
+
+
+
+
+/* Layout */
+#wrapper {
+    width: 1000px;
+    margin: 0;
+    padding: 0 0 0 60px;
+    
+}
+
+#menu {
+    position:fixed;
+    top: 20px;
+    left:20px;
+    width:200px; /*172*/
+    padding:50px;
+    line-height:17px;
+    width:170px ;
+    color: #777777;
+    font-size: 11px;
+    }
+
+#menu h1 {
+    border-bottom: 1px solid #eee;
+    color: #555555;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 28px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+#nav {
+    list-style:none;
+    margin: 0;
+    width: 200px;
+    /*float: left;*/
+    height: 20px;
+    line-height: 0px;
+}
+
+#nav li {
+    padding: 0;
+    margin: 0;
+    line-height:20px;
+    /*display: block;*/
+    width: 170px;
+    /*float: left;*/
+    text-transform: uppercase;
+}
+
+#nav li a {
+    padding: 4px 0;
+    font-size: 11px;
+    font-weight: bold;
+    color: #999;
+}
+
+#nav li a:hover {
+    color: #f6a517; /* #FF6600; /*#FF4019; /*#FF8C00;*/ /*#ff005a;*/
+}
+
+#footer {
+    padding-top: 0.5em;
+    margin-top: 3.5em;
+    border-top: 1px solid #f7f7f6;
+    clear: both;
+}
+
+#footer p {
+    font-size: 11px;
+    text-align: right;
+}
+
+/* Classes */
+.title {
+    margin: 4em 0;
+    padding: 0 0 20px;
+    display: block;
+    border-bottom: 1px solid #dadad9;
+    /* font-family: "Helvetica Neue",  Helvetica, Calibri, Arial, sans-serif; */
+}
+
+.section {
+    margin: 4em 0;
+    padding: 0 0 20px;
+    display: block;
+    border-bottom: 1px solid #dadad9;
+}
+
+.clear {
+    clear: both;
+    height: 25px;
+    display: block;
+}
+
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+.icon {
+    padding: 3px 0 3px 16px;
+    font-size: 11px;
+}
+
+.spacer {
+    height: 1em;
+    display: block;
+}
+
+/*---------- bubble tooltip -----------*/
+
+a.tt{
+    position:relative;
+    z-index:24;
+    color:#777777;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+a.tt span{ 
+    display: none; 
+}
+
+
+/*background:; ie hack, something must be changed in a for ie to execute it*/
+
+a.tt:hover{ z-index:25; color: #f6a517;} /*background:;}*/
+
+a.tt:hover span.tooltip{
+    display:block;
+    position:absolute;
+    top: 3px; 
+    left:50px;
+    padding: 15px 20px 0;
+    width:500px;
+    color: #444444;
+	font-family: "Helvetica Neue", Helvetica, Calibri, Arial, sans-serif;
+    text-align: justify;
+    filter: alpha(opacity : 99);
+    /*KHTMLOpacity: .99;*/
+    /*MozOpacity: .99;*/
+    opacity: .99;
+	-moz-border-radius: 5px; /* this works only in camino/firefox */
+	-webkit-border-radius: 5px; /* this is just for Safari */
+}
+
+a.tt:hover span.top{
+    display: block;
+    padding: 8px 10px 8px;
+	position: relative;
+	bottom: -5px;
+	width: 498px;
+	color: #f7f7f6;
+	border: 1px solid #333366;
+	background: #888888  no-repeat top; 
+    /*background: url(bubble.gif) no-repeat top;*/
+    /*-moz-border-radius: 5px; /* this works only in camino/firefox */
+	-webkit-border-radius: 5px; /* this is just for Safari */
+}
+
+a.tt:hover span.middle{ /* different middle bg for stretch */
+    display: block;
+    padding: 5px 10px 5px;	
+	position: relative;
+	z-index:25;
+	border-left: 1px solid #333366;
+	border-right: 1px solid #333366;
+	width: 498px;
+	font-weight: normal;
+	background: #f7f7f6 repeat bottom ;
+    /*background: url(bubble_filler.gif) repeat bottom; */
+    /*-moz-border-radius: 5px;*/ /* this works only in camino/firefox */
+    /*-webkit-border-radius: 5px;*/ /* this is just for Safari */      
+}
+
+a.tt:hover span.bottom{
+    display: block;
+    padding:8px 10px 8px;
+	position: relative;
+	top: -5px;
+	width: 498px;
+    color: #f7f7f6 ;
+	border: 1px solid #333366;
+	font-weight: normal;
+	background: #888888 no-repeat bottom;
+    /*background: url(bubble.gif) no-repeat bottom;*/
+    /*-moz-border-radius: 5px; /* this works only in camino/firefox */
+	-webkit-border-radius: 5px; /* this is just for Safari */
+}
